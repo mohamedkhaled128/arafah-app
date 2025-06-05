@@ -1,0 +1,352 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>يوم عرفة | Arafah Day</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=Tajawal:wght@400;500;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header class="main-nav">
+        <div class="nav-container">
+            <div class="logo">
+                <h1>يوم عرفة</h1>
+            </div>
+            <!-- زر الهامبرغر للشاشات الصغيرة -->
+            <button class="hamburger-btn">
+                <i class="fas fa-bars"></i>
+            </button>
+            <nav class="nav-links-container">
+                <ul class="nav-links">
+                    <li><a href="#guide">الدليل</a></li>
+                    <li><a href="#prayer">متتبع الصلاة والأذكار</a></li>
+                    <li><a href="#live">البث المباشر والفيديوهات</a></li>
+                    <li><a href="#fatwa">الفتاوى</a></li>
+                    <li><a href="#dua">أدعيتي الخاصة</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="hero-content">
+            <h1>يوم عرفة</h1>
+            <p>يوم عظيم من أيام الله، يوم يتجلى فيه فضل الله على عباده</p>
+            <div class="countdown-section">
+                <h2>العد التنازلي لصلاة المغرب</h2>
+                <div class="countdown">
+                    <div class="countdown-item">
+                        <span id="hours">00</span>
+                        <p>ساعة</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="minutes">00</span>
+                        <p>دقيقة</p>
+                    </div>
+                    <div class="countdown-item">
+                        <span id="seconds">00</span>
+                        <p>ثانية</p>
+                    </div>
+                </div>
+            </div>
+            <!-- رسالة تشجيعية تحت العد التنازلي -->
+            <p class="countdown-message">ما دام الوقت لم ينتهِ، فرصتك للدعاء والعمل الصالح قائمة!</p>
+        </div>
+    </section>
+
+    <main>
+        <!-- دليل عرفة الموسع -->
+        <section class="guide-section" id="guide">
+            <h2>دليل يوم عرفة الشامل</h2>
+            <div class="tabs">
+                <button class="tab-btn active" data-tab="virtues">الفضائل</button>
+                <button class="tab-btn" data-tab="acts">الأعمال المستحبة</button>
+                <button class="tab-btn" data-tab="dua">أدعية مأثورة</button>
+                <button class="tab-btn" data-tab="etiquette">آداب الدعاء</button>
+            </div>
+            <div class="tab-content">
+                <div id="virtues" class="tab-pane active">
+                    <h3>فضائل يوم عرفة</h3>
+                    <ul>
+                        <li>يوم عرفة هو اليوم التاسع من ذي الحجة</li>
+                        <li>يوم عظيم من أيام الله، قال النبي ﷺ: "يوم عرفة ويوم النحر وأيام التشريق عيدنا أهل الإسلام"</li>
+                        <li>يوم مغفرة الذنوب والعتق من النار</li>
+                        <li>يوم إكمال الدين وإتمام النعمة</li>
+                        <li>يوم يتجلى فيه فضل الله على عباده</li>
+                    </ul>
+                </div>
+                <div id="acts" class="tab-pane">
+                    <h3>الأعمال المستحبة في يوم عرفة</h3>
+                    <ul>
+                        <li>الصيام: قال النبي ﷺ: "صيام يوم عرفة أحتسب على الله أن يكفر السنة التي قبله والسنة التي بعده"</li>
+                        <li>الإكثار من التهليل والتكبير والتحميد</li>
+                        <li>الإكثار من الدعاء والذكر</li>
+                        <li>التوبة النصوح</li>
+                        <li>الإكثار من الصدقة</li>
+                        <li>صلة الرحم</li>
+                        <li>بر الوالدين</li>
+                    </ul>
+                </div>
+                <div id="dua" class="tab-pane">
+                    <h3>أدعية مأثورة في يوم عرفة</h3>
+                    <div class="dua-list">
+                        <div class="dua-card">
+                            <p>«لا إله إلا الله وحده لا شريك له، له الملك وله الحمد وهو على كل شيء قدير»</p>
+                        </div>
+                        <div class="dua-card">
+<p>
+    اللهم إني عبدك ابن عبدك ابن أَمتك ناصيتي بيدك، ماضِ فيَّ حكمك، عدل فيَّ قضاؤك، أسألك بكل اسم هو لك سميت به نفسك أو أنزلته في كتابك، أو علمته أحدًا من خلقك أو استأثرت به في علم الغيب عندك أن تجعل القرآن ربيع قلبي، ونور صدري وجلاء حزني وذهاب همي
+</p>                        </div>
+                        <div class="dua-card">
+<p>
+    ربي أسألكَ من الخيرِ ما سألك عبدُك ورسولُك محمد صلَّى اللهُ عليه وسلم وأعوذُ بك من شرِّ ما استعاذك منه عبدُك ورسولُك محمدٌ صلَّى اللهُ عليه وسلم، وأسألكَ ما قضيتَ لي من أمرٍ أنْ تجعلَ عاقبتَه لي رشدًا
+</p>                        </div>
+                    </div>
+                </div>
+                <div id="etiquette" class="tab-pane">
+                    <h3>آداب الدعاء في يوم عرفة</h3>
+                    <ul>
+                        <li>استقبال القبلة</li>
+                        <li>رفع اليدين</li>
+                        <li>البدء بحمد الله والثناء عليه</li>
+                        <li>الصلاة على النبي ﷺ</li>
+                        <li>الإلحاح في الدعاء</li>
+                        <li>التضرع والخشوع</li>
+                        <li>الدعاء بجوامع الكلم</li>
+                        <li>عدم الاستعجال في الإجابة</li>
+                    </ul>
+                </div>
+            </div>
+        </section>
+
+        <!-- متتبع الصلاة -->
+        <section class="prayer-tracker" id="prayer">
+            <h2>متتبع الصلاة والأذكار</h2>
+            <div class="prayer-grid">
+                <div class="prayer-card">
+                    <h3>الصلوات المفروضة</h3>
+                    <div class="prayer-list">
+                        <div class="prayer-item">
+                            <input type="checkbox" id="fajr">
+                            <label for="fajr">
+                                <span class="prayer-name">الفجر</span>
+                                <span class="prayer-time">04:21</span>
+                            </label>
+                        </div>
+                        <div class="prayer-item">
+                            <input type="checkbox" id="dhuhr">
+                            <label for="dhuhr">
+                                <span class="prayer-name">الظهر</span>
+                                <span class="prayer-time">12:56</span>
+                            </label>
+                        </div>
+                        <div class="prayer-item">
+                            <input type="checkbox" id="asr">
+                            <label for="asr">
+                                <span class="prayer-name">العصر</span>
+                                <span class="prayer-time">04:25</span>
+                            </label>
+                        </div>
+                        <div class="prayer-item">
+                            <input type="checkbox" id="maghrib">
+                            <label for="maghrib">
+                                <span class="prayer-name">المغرب</span>
+                                <span class="prayer-time">07:50</span>
+                            </label>
+                        </div>
+                        <div class="prayer-item">
+                            <input type="checkbox" id="isha">
+                            <label for="isha">
+                                <span class="prayer-name">العشاء</span>
+                                <span class="prayer-time">09:18</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prayer-card">
+                    <h3>النوافل</h3>
+                    <div class="prayer-list">
+                        <div class="prayer-item">
+                            <input type="checkbox" id="sunrise">
+                            <label for="sunrise">
+                                <span class="prayer-name">صلاة الشروق</span>
+                            </label>
+                        </div>
+                        <div class="prayer-item">
+                            <input type="checkbox" id="duha">
+                            <label for="duha">
+                                <span class="prayer-name">صلاة الضحى</span>
+                            </label>
+                        </div>
+                        <div class="prayer-item">
+                           
+                            <label for="tahajjud">
+
+                            </label>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="prayer-card">
+                    <h3>الأذكار</h3>
+                    <div class="dhikr-list">
+                        <div class="dhikr-item">
+                            <input type="checkbox" id="morning">
+                            <label for="morning">
+                                <span class="dhikr-name">أذكار الصباح</span>
+                            </label>
+                        </div>
+                        <div class="dhikr-item">
+                            <input type="checkbox" id="evening">
+                            <label for="evening">
+                                <span class="dhikr-name">أذكار المساء</span>
+                            </label>
+                        </div>
+                        <div class="dhikr-item">
+                            <input type="checkbox" id="sleep">
+                            <label for="sleep">
+                                <span class="dhikr-name">أذكار النوم</span>
+                            </label>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- البث المباشر والفيديوهات -->
+        <section class="media-section" id="live">
+            <h2>البث المباشر والفيديوهات</h2>
+            <div class="media-container">
+                <div class="live-stream">
+                    <h3>البث المباشر من جـبل عـرفات</h3>
+                    <div class="video-container">
+<iframe src="https://www.youtube.com/embed/4xQkkfDSk9Y?si=GsYnU9Pq0hEpzqZk"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>
+                    </div>
+                </div>
+                
+                <div class="video-gallery">
+                    <h3>فيديوهات مختارة</h3>
+                    <div class="video-grid">
+                        <div class="video-item">
+<iframe src="https://www.youtube.com/embed/O-a4uW_NJt8"
+    title="YouTube video player"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    allowfullscreen>
+  </iframe> 
+                             <p>الشيخ ماهر المعيقلي </p>
+                        </div>
+                        <div class="video-item">
+<iframe src="https://www.youtube.com/embed/2Er8PErLUuA?si=8GCA6W-mF0tbNF5y"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>                            <h4>خطبة عرفة</h4>
+                            <p>الشيخ عبدالرحمن السديس</p>
+                        </div>
+                        <div class="video-item">
+<iframe src="https://www.youtube.com/embed/0RoPv9cuoIw?si=EdaYL70YZSvvIj1f"
+    title="YouTube video player"
+    frameborder="0"
+    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+    referrerpolicy="strict-origin-when-cross-origin"
+    allowfullscreen>
+  </iframe>                            <h4>فضل يوم عرفة</h4>
+                            <p>الشيخ محمد العريفي</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- الفتاوى -->
+        <section class="fatwa-section" id="fatwa">
+            <h2>الفتاوى والمراجع</h2>
+            <div class="fatwa-grid">
+                <a href="https://www.islamweb.net" class="fatwa-card" target="_blank">
+                    <i class="fas fa-book"></i>
+                    <h3>إسلام ويب</h3>
+                    <p>موقع إسلامي شامل للفتاوى والأحكام</p>
+                </a>
+                <a href="https://www.islamqa.info" class="fatwa-card" target="_blank">
+                    <i class="fas fa-question-circle"></i>
+                    <h3>الإسلام سؤال وجواب</h3>
+                    <p>فتاوى الشيخ محمد صالح المنجد</p>
+                </a>
+                <a href="https://binbaz.org.sa" class="fatwa-card" target="_blank">
+                    <i class="fas fa-mosque"></i>
+                    <h3>موقع الشيخ ابن باز</h3>
+                    <p>فتاوى وتراث الشيخ عبدالعزيز بن باز</p>
+                </a>
+            </div>
+        </section>
+
+        <!-- الأدعية الخاصة -->
+        <section class="dua-section" id="dua">
+            <h2>أدعيتي الخاصة</h2>
+            <form id="dua-form" class="dua-form">
+                <textarea id="dua-text" placeholder="اكتب دعاءك هنا..." required></textarea>
+                <div class="form-group">
+                    <label>
+                        <input type="checkbox" id="pin-dua">
+                        تثبيت الدعاء 
+                    </label>
+                </div>
+                <button type="submit">
+                    <i class="fas fa-save"></i>
+                    حفظ الدعاء
+                </button>
+            </form>
+            <div id="saved-duas" class="saved-duas">
+                <!-- سيتم إضافة الأدعية المحفوظة هنا عبر JavaScript -->
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h3>روابط سريعة</h3>
+                <ul>
+                    <li><a href="#hours">العداد</a></li>
+                    <li><a href="#guide">دليل عرفة</a></li>
+                    <li><a href="#prayer">متتبع الصلاة</a></li>
+                    <li><a href="#live">البث المباشر</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>مواقع إسلامية</h3>
+                <ul>
+                    <li><a href="https://www.alukah.net/" target="_blank">موقع الألوكة</a></li>
+                    <li><a href="https://www.islamweb.net/" target="_blank">موقع إسلام ويب</a></li>
+                    <li><a href="https://www.islamhouse.com/" target="_blank">بيت الإسلام</a></li>
+                    <li><a href="https://www.islamway.net/" target="_blank">طريق الإسلام</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h3>تواصل معنا</h3>
+                <a href="mailto:mohm7kh@gmail.com" class="email-link">
+                    <i class="fas fa-envelope"></i>
+                    mohm7kh@gmail.com
+                </a>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>نسأل الله أن يتقبل منا ومنكم صالح الأعمال</p>
+            <p class="copyright">جميع الحقوق محفوظة &copy; 2024</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html> 
